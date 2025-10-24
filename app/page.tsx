@@ -4,14 +4,10 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        hi 👋, I am Anwar Pasaribu
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Skilled Android developer, proficient in using Kotlin to craft beautiful yet impactfully useful mobile apps. Passionate with the latest Android Development technology and implementing it\’s best practice to improve app quality and finally make app users happy.`}
       </p>
       <div className="my-8">
         <BlogPosts />
