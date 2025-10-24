@@ -1,8 +1,16 @@
+import Image from 'next/image'
 import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
-    <section>
+    <section className="flex flex-col items-center justify-center max-w-2xl mx-auto px-4">
+      <Image
+        src="/avatar.jpg"
+        alt="Anwar Pasaribu"
+        width={128}
+        height={128}
+        className="rounded-full object-cover mb-4"
+      />
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         hi 👋, I am Anwar Pasaribu
       </h1>
