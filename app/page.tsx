@@ -11,15 +11,15 @@ export default function Page() {
         height={128}
         className="rounded-full object-cover mb-4"
       />
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        hi 👋, I am Anwar Pasaribu
+      <h1 className="mb-8 text-1xl font-bold">
+        Hi 👋, I'm Anwar Pasaribu
       </h1>
       <p className="mb-4">
-        {`Skilled Android developer, proficient in using Kotlin to craft beautiful yet impactfully useful mobile apps. Passionate with the latest Android Development technology and implementing it\’s best practice to improve app quality and finally make app users happy.`}
+        {`Passionate with the latest Mobile Development technology and implementing it\’s best practice to improve app quality and ultimately make app users happy. Proven more than 5 years experienced in crafting high-quality mobile applications from stock trading, e-Wallet, consumer goods, banking apps.`}
       </p>
-      <div className="my-8">
+      {/* <div className="my-8">
         <BlogPosts />
-      </div>
+      </div> */}
     </section>
   )
 }
